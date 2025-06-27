@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AzuredemoApplication {
 	@GetMapping("/welcome")
 	public String Demo(){
-		return" hello this is the testing of deploying the cicd in aws";
+		return" hello this is the testing of deploying on azure";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(AzuredemoApplication.class, args);
